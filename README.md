@@ -1,5 +1,6 @@
 # Getting Started with Create React App
-
+## Home Page
+![alt text](https://raw.githubusercontent.com/nikhilkrdwivedi/homepage-with-react/master/screenshot/home.png)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
