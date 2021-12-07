@@ -1,0 +1,82 @@
+.dot {
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.2rem;
+}
+.IN-PROGRESS {
+    background-color: #ffeeda;
+    color: #ff8c04;
+    .dot {
+        background-color: #ff8c04;
+    }
+}
+.RECEIVED {
+    background-color: #caf7e7;
+    color: #0bc281;
+    .dot {
+        background-color: #0bc281;
+    }
+}
+.REQUESTED {
+    background-color: #d5f6ff;
+    color: #00b1ed;
+    .dot {
+        background-color: #00b1ed;
+    }
+}
+
+.cardBlock {
+    display: flex;
+    padding: 1.25rem;
+    margin: 0.75rem;
+    color: #0e1053;
+}
+.statsNumber {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.75rem;
+    padding-left: 0.5rem;
+}
+.statsText {
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    padding-left: 0.5rem;
+}
+.cardIcon {
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.cardCss {
+    display: flex;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0rem 0.5rem;
+    color: #0e1053;
+    box-shadow: 0px 3px 8px rgba(14, 16, 83, 0.2);
+}
+
+.quickScrollbar {
+    float: left;
+    height: 109px;
+    width: 100%;
+    background: #fff;
+    overflow-y: auto;
+}
+
+#quickBodyCustom::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #fff;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+#quickBodyCustom::-webkit-scrollbar {
+    width: 4px;
+    background-color: #fff;
+}
+
+#quickBodyCustom::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: grey;
+}

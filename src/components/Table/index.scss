@@ -1,0 +1,30 @@
+table {
+    background-color: #fff;
+    box-shadow: 0px 3px 8px rgba(14, 16, 83, 0.2);
+}
+.table > :not(:first-child) {
+    border-top: 1px solid rgba(128, 128, 128, 0.247);
+}
+.customTable {
+    color: #565786;
+    font-size: 0.75rem;
+    font-weight: 500;
+    td {
+        padding: 1rem;
+    }
+}
+.customTableBody {
+    color: #0e1053;
+    font-size: 0.75rem;
+    td {
+        padding: 0.5rem;
+    }
+}
+
+.form-check-input {
+    margin: 0;
+}
+.checkboxCss {
+    width: 1.25em;
+    height: 1.25em;
+}

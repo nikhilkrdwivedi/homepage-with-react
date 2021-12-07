@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+  }
+  .navList > li{
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: white;
+    opacity: 0.7;
+  }
+  .navList > li:hover{
+     
+    color: rgb(196, 62, 0);
+    cursor: pointer;
+    background-color: #fff
+    
+  }
+  .navList {
+    padding: 0.5rem 0rem;
+  }
+  .customHeader{
+  border-left: 0.25rem solid #555DFF;
+  background: linear-gradient(90deg, rgba(85, 93, 255, 0.3) 0%, rgba(85, 93, 255, 3e-05) 92.31%);
+  padding: 1rem 3rem;
+  }
+  .navText{
+  padding-left: 0.75rem;
+  }
+  

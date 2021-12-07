@@ -1,0 +1,25 @@
+// profile
+.inline-flex{
+    display: inline-flex;
+  }
+  .icon{
+     padding: 0.5rem;
+     font-size: 1.25rem;
+     color: #141646;
+  }
+  .userInfo{
+    padding:0rem 0.5rem;
+  }
+  .userName{
+    font-size: 0.95rem;
+    font-weight: bold;
+  }
+  .userEmail{
+    font-size: 0.85rem;
+  }
+  .userShortName{
+    background-color: rgba(86, 87, 134, 0.2);
+    padding: 0.5rem;
+    font-size: 0.90rem;
+  }
+  
